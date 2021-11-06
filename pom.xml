@@ -103,12 +103,8 @@
 							<anypoint.platform.analytics_base_uri>https://analytics-ingest.anypoint.mulesoft.com/</anypoint.platform.analytics_base_uri>
 						</properties>
 					</cloudHubDeployment>
-					<sharedLibraries>
-						<sharedLibrary>
-							<groupId>com.oracle</groupId>
-							<artifactId>ojdbc6</artifactId>
-						</sharedLibrary>
-					</sharedLibraries>
+					<!-- <sharedLibraries> <sharedLibrary> <groupId>com.oracle</groupId> 
+						<artifactId>ojdbc6</artifactId> </sharedLibrary> </sharedLibraries> -->
 				</configuration>
 			</plugin>
 		</plugins>
@@ -146,7 +142,7 @@
 			<classifier>mule-plugin</classifier>
 		</dependency>
 		<dependency>
-			<groupId>com.oracle</groupId>
+			<groupId>com.oracle.database.jdbc</groupId>
 			<artifactId>ojdbc6</artifactId>
 			<version>11.2.0.4</version>
 		</dependency>

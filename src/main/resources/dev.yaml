@@ -6,5 +6,5 @@ database:
     host: "oracle-58801-0.cloudclusters.net"
     port: "15406"
     user: "uhubdevuser"
-    password: "![z86pbR0Lg/Ok6YMnxmYGEg]"
+    password: "![z86pbR0Lg/Ok6YMnxmYGEg==]"
     instance: "XE"

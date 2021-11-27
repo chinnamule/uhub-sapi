@@ -59,7 +59,7 @@
 						<extensions>true</extensions>
 						<configuration>
 							<cloudHubDeployment>
-								<applicationName>uho-test-uhub-sapi</applicationName>
+								<applicationName>uho-tst-uhub-sapi</applicationName>
 								<environment>test</environment>
 								<region>us-east-1</region>
 								<workers>1</workers>
@@ -183,4 +183,5 @@
 			</snapshots>
 		</pluginRepository>
 	</pluginRepositories>
+	
 </project>

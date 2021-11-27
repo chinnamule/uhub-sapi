@@ -3,8 +3,8 @@ http:
 
 database:
   uhub:
-    host: "oracle-33478-0.cloudclusters.net"
-    port: "33478"
-    user: "uhubapp"
-    password: "![jJcghc5KqX/3ErD5bDwXGQ==]"
+    host: "oracle-58801-0.cloudclusters.net"
+    port: "15406"
+    user: "uhubdevuser"
+    password: "![z86pbR0Lg/Ok6YMnxmYGEg==]"
     instance: "XE"
